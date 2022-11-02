@@ -7,19 +7,15 @@ namespace RosSharp.RosBridgeClient
         public GameObject CameraPanel;
 
         private Material CustomMaterial;
-        public Texture RobotCameraImage;
-        public Canvas CameraDisplayCanvas;
+        private Texture RobotCameraImage;
         private bool isMessageReceived;
         private byte[] _data;
 
         private void Start()
         {
-            //CustomMaterial.mainTexture = RobotCameraImage;
             CustomMaterial = CameraPanel.GetComponent<MeshRenderer>().sharedMaterial;
-            CustomMaterial.mainTexture = RobotCameraImage;
             CustomMaterial.color = Color.white;
         }
-
 
         private void Update()
         {
@@ -41,9 +37,6 @@ namespace RosSharp.RosBridgeClient
             RobotCameraImage = texture;
             CustomMaterial.mainTexture = RobotCameraImage;
             CustomMaterial.color = Color.white;
-
-
-            //CameraDisplayCanvas.enabled = true;
             isMessageReceived = false;
         }
     }
