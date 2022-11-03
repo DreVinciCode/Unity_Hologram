@@ -613,7 +613,7 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Hologram
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: C:\Users\AClea\Documents\GitHub\Unity_Hologram\Assets\WSATestCertificate.pfx
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: DreVinci Creations
   metroCertificateIssuer: DreVinci Creations

@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MRTK/Examples/Experimental/ColorPicker/ColorPickerExample.unity
-    guid: 50602fd68091a3649ba54d6691c8737c
+    path: Assets/Scenes/Main.unity
+    guid: b430dabfe07964a4bbb35fe3a71aa94d
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 892eb0897ab387249b8b3723702f748a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 163d7f0ddac533f4eb5bc4aa5fcee586, type: 2}

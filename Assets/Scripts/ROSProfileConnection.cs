@@ -19,7 +19,7 @@ public class ROSProfileConnection : MonoBehaviour
         ConnectionCheck = false;
         _rosConnector = GetComponent<RosConnector>();
         _rosConnector.Serializer = RosSocket.SerializerEnum.Newtonsoft_JSON;
-        _rosConnector.protocol = Protocol.WebSocketSharp;
+        _rosConnector.protocol = Protocol.WebSocketUWP;
     }
 
     public void SetIPAddress()

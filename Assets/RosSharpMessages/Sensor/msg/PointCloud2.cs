@@ -15,7 +15,8 @@ namespace RosSharp.RosBridgeClient.MessageTypes.Sensor
 {
     public class PointCloud2 : Message
     {
-        public const string RosMessageName = "sensor_msgs/PointCloud2";
+        public override string RosMessageName => "sensor_msgs/PointCloud2";
+        //public const string RosMessageName = "sensor_msgs/PointCloud2";
 
         //  This message holds a collection of N-dimensional points, which may
         //  contain additional information such as normals, intensity, etc. The
